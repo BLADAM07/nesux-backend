@@ -1,0 +1,2369 @@
+{
+  "title": "Act 8",
+  "description": "Easy path for competition",
+  "quests": [
+    {
+      "id": "8.1.1",
+      "video_url": "https://youtu.be/BVAsr0KLdCY?si=GtUISIYCTFSm9h3b",
+      "path_nodes": [
+        {
+          "name": "Defective Defense",
+          "effect": "Blocking attacks have a 100% chance to apply a Disorient Debuff to the Attacker, reducing Block Proficiency and Defensive Ability Accuracy by 25% for 12 seconds.\nThe chance is reduced by 50% if the block was Well-Timed.\nThe Attacker can dash back and hold block for 1.2 seconds to remove one of these Debuffs."
+        },
+        {
+          "name": "DISARM \u2013 Heavy Attack",
+          "effect": "Whenever the Attacker knocks down the Defender with a Heavy Attack, any Weapon Node active on the Defender is disabled and enters cooldown for 20 seconds, then reactivates.\nDefender cannot be Disarmed again for 10 seconds after reactivation."
+        },
+        {
+          "name": "WEAPON \u2013 Exceptional X-Gene",
+          "effect": "Whenever the Attacker is inflicted with a Debuff, the Defender gains an indefinite Passive increasing their Special Attack by 25%. Whenever a Debuff is Purified, gain another Passive."
+        },
+        {
+          "name": "UNARMED \u2013 Heavy Attacks",
+          "effect": "While the Defender's Weapon Node is on Cooldown, they take 600% more damage from Heavy Attacks."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "Easy",
+          "champion": "Green Goblin"
+        },
+        {
+          "difficulty": "Easy",
+          "champion": "Hulk"
+        },
+        {
+          "difficulty": "Easy",
+          "champion": "Lizard"
+        },
+        {
+          "difficulty": "Easy",
+          "champion": "Black Widow"
+        },
+        {
+          "difficulty": "Easy",
+          "champion": "Crossbones"
+        },
+        {
+          "difficulty": "Easy",
+          "champion": "Sasquatch"
+        }
+      ],
+      "boss": {
+        "name": "Red  Skull",
+        "nodes": [
+          {
+            "name": "Steady Perseverance - 1",
+            "effect": "When the Defender activates a Special Attack, they gain a Stun Immunity Buff for 4 seconds + 2 seconds for each of the Defender's unique Buffs.\nThis Buff is paused during the Defender's Special Attacks."
+          },
+          {
+            "name": "Debuff Synthesis - Stun/Bleed",
+            "effect": "Whenever the Attacker applies a Bleed Debuff while the Defender is suffering from a Stun Debuff, both Debuffs are consumed and\nthe Defender is inflicted with a Poison Debuff, dealing 200% of the Attacker's Attack as Direct Damage over 15 seconds and reducing Health Recovery by 30%."
+          },
+          {
+            "name": "Poison Vulnerability",
+            "effect": "While the Defender is Poisoned, the Attacker's Attack Rating is increased by 200% when landing an attack."
+          },
+          {
+            "name": "Critical Setup",
+            "effect": "When the Attacker performs the same Combo-Ending Attack twice in a row, the attack is a Guaranteed Critical Hit."
+          },
+          {
+            "name": "Return Policy - 5",
+            "effect": "Whenever any of the Defender's Buffs are Nullified, they gain 100% of a bar of Power. Armor Break Debuffs Nullify Armor Up Buffs."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.1.2",
+      "video_url": "https://youtu.be/GYVbvzlxb1g?si=OW8hgxOCJSTsmeTe",
+      "path_nodes": [
+        {
+          "name": "Combo Party",
+          "effect": "For every 10 hits on their Combo Meter, the Attacker gains a permanent Cruelty Buff, granting +500 Crit Damage Rating.\nWhen struck, the attacker loses all Cruelty Buffs if their combo meter is lost and takes 40% of the Defender\u2019s attack as direct damage for each Cruelty Buff removed this way."
+        },
+        {
+          "name": "Skill Wrath",
+          "effect": "All Skill Champions in this Arena receive Fury for the length of the fight, raising Attack by 125%."
+        },
+        {
+          "name": "Double Down",
+          "effect": "Whenever a Skill Attacker fails to apply a Debuff to the Defender due to an Immunity, they gain a Precision Buff, increasing Critical Rating by +1,433 for 10 seconds."
+        },
+        {
+          "name": "Right Back At It - 3",
+          "effect": "When the Defender is knocked down by a Heavy or Special Attack, they become Debuff Immune for 8 seconds."
+        },
+        {
+          "name": "Adaptive",
+          "effect": "Cycles between building up Physical Resistance or Energy Resistance every 8 seconds."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "Easy",
+          "champion": "Sentry"
+        },
+        {
+          "difficulty": "Mid",
+          "champion": "Like"
+        },
+        {
+          "difficulty": "Mid",
+          "champion": "Human Torch"
+        },
+        {
+          "difficulty": "Easy",
+          "champion": "Black Widow CV"
+        },
+        {
+          "difficulty": "Mid",
+          "champion": "Invisible Woman"
+        },
+        {
+          "difficulty": "Mid",
+          "champion": "Medusa"
+        }
+      ],
+      "boss": {
+        "name": "She Hulk",
+        "nodes": [
+          {
+            "name": "Newton's Law",
+            "effect": "Whenever the Defender is knocked down, they gain a non-stacking Unstoppable Passive lasting 20 seconds.\nIntercepting the Defender's Light or Medium Attack while they are Unstoppable inflicts a 15-second Passive Slow on the Defender and transfers the Unstoppable to the Attacker for 20 seconds."
+          },
+          {
+            "name": "Fuel the Fire",
+            "effect": "Whenever the Defender gains a Fury Effect, they become Passively Unstoppable for 5 seconds. If they already have an Unstoppable effect, they instead become Passively Unblockable for 5 seconds."
+          },
+          {
+            "name": "Unstoppable Force",
+            "effect": "The duration of the Attacker's Unstoppable effects is increased by +100%. Additionally, while the Attacker is Unstoppable, they gain a Passive Fury, granting +140% Attack Rating."
+          },
+          {
+            "name": "Clean Slate - 1",
+            "effect": "When the Defender finishes a Special Attack, they gain a Debuff Immunity Passive for 4 seconds.\nThe duration of this Debuff Immunity is reduced by 2 seconds for each Debuff that was active when this effect was applied."
+          },
+          {
+            "name": "Immunity (Shock)",
+            "effect": "The Defender is Immune to Shock effects."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.1.3",
+      "video_url": "https://youtu.be/ha3ZrQtHU4w?si=pVPdnBVFYiklUcky",
+      "path_nodes": [
+        {
+          "name": "Rage 1.5",
+          "effect": "Damage taken in a single hit is capped at 1.50% of Max Health.\nWhen the damage cap is reached, gain a Fury Buff. Upon reaching 5 Fury Buffs activated by Rage, attacks become Unblockable.\nAbility Accuracy modification doesn't affect this Node."
+        },
+        {
+          "name": "Combo Party",
+          "effect": "For every 10 hits on their Combo Meter, the Attacker gains a permanent Cruelty Buff, granting +500 Crit Damage Rating.\nWhen struck, the Attacker loses all Cruelty Buffs if their Combo Meter is lost and takes 40% of the Defender's Attack as direct damage for each Cruelty Buff removed this way."
+        },
+        {
+          "name": "From My Cold Dead Hands",
+          "effect": "Each Buff Nullified, Staggered, or Fate-Sealed off the Defender inflicts a burst of 200% Direct Damage to the Attacker. Armor Break Debuffs Nullify Armor Up Buffs."
+        },
+        {
+          "name": "Juke",
+          "effect": "Finishing a 5-hit combo with a Light or Medium Attack grants the Attacker a Passive Fury charge,\nincreasing their Attack Rating by 7% per charge. Up to 10 charges can be gained, and all charges are lost when performing the same combo-ender twice in a row."
+        },
+        {
+          "name": "Aggressive",
+          "effect": "This Defender is more aggressive and excels at offensive abilities like Heavy and Dash Attacks."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Wolverine"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Shang Chi"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "X-23"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Quake"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Sabretooth"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Overseer"
+        }
+      ],
+      "boss": {
+        "name": "Psycho-Man",
+        "nodes": [],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.1.4",
+      "video_url": "https://youtu.be/FwQOfZLoNEs?si=EuD-R4VAtxHfhJnA",
+      "path_nodes": [
+        {
+          "name": "Superiority: Paragon",
+          "effect": "If the Attacker is a #Hero Champion, they gain Superiority."
+        },
+        {
+          "name": "Set in Stone",
+          "effect": "Sinking into the Defender's Block inflicts a 15-second Petrify Passive of 100% Potency.\nIf the Attacker has Superiority, intercepting the opponent applies the same Petrify Passive to the Defender."
+        },
+        {
+          "name": "Spite",
+          "effect": "While opponents have active Buffs, this champion activates Power Flood out of Spite, granting 18% Power per second."
+        },
+        {
+          "name": "Foresight",
+          "effect": "Intercepting the opponent's Dash Attack with a Basic Attack grants the Attacker a Passive Fury charge, increasing their Attack Rating by 200% for 5 seconds."
+        },
+        {
+          "name": "Hale and Hearty - 2",
+          "effect": "Whenever the Attacker gains a Bar of Power, the Defender gains a Regeneration Buff, healing 6% of their max Health over 8 seconds.\nThis Regeneration Buff is removed early if the Defender is knocked down with a Heavy Attack."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "Easy",
+          "champion": "Hulk"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Sorcerer supreme"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Hulk ( immortal )"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Cosmic Ghost Rider"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Red Hulk"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Mangog"
+        }
+      ],
+      "boss": {
+        "name": "Proxima Mignight",
+        "nodes": [
+          {
+            "name": "Energy Adoption: Ice-2",
+            "effect": "Defender has a 50% chance to inflict the Attacker with Coldsnap whenever the Defender is struck or the Attacker blocks an attack.\nDoes not trigger while Defender has an Armor Break. Defender takes 100% reduced damage from Coldsnap and gains a Regeneration Buff healing 1% of max health per second until Coldsnap expires."
+          },
+          {
+            "name": "Be Like Water-2",
+            "effect": "Whenever the Defender is inflicted with a non-damaging Debuff, they gain an Unblockable Passive for 8 seconds."
+          },
+          {
+            "name": "Ebb and Flow \u2013 Knock Down",
+            "effect": "Defender has Protection, reducing incoming damage by 60%. Knocking down the Defender removes Protection and grants the Attacker a Fury Passive,\nincreasing Attack Rating by 40% for 12 seconds. When Fury expires, Protection returns and all Debuffs on the Defender are Purified."
+          },
+          {
+            "name": "Clean Sweep",
+            "effect": "Each time the Attacker knocks the Defender down, all Debuffs on the Attacker are Purified."
+          },
+          {
+            "name": "Enhanced Special 1",
+            "effect": "Special 1 deals 30% more damage. The first melee hit or instant projectile hit (e.g. beam or psychic blast) is Unblockable. Projectiles with flight time, such as an arrow or rock, are not Unblockable."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.1.5",
+      "video_url": "https://youtu.be/2QhLoD2Io6Y?si=4ThAF4F6qdPD4FA3",
+      "path_nodes": [
+        {
+          "name": "Superiority: Paragon",
+          "effect": "If the Attacker is a #Hero Champion, they gain Superiority."
+        },
+        {
+          "name": "Set in Stone",
+          "effect": "Striking into the Defender's Block inflicts a 15-second Petrify Passive of 100% Potency. If the Attacker has Superiority, intercepting the opponent applies the same Petrify Passive to the Defender."
+        },
+        {
+          "name": "Spite",
+          "effect": "While opponents have active Buffs, this Champion activates Power Flood out of Spite, granting 18% Power per second."
+        },
+        {
+          "name": "Foresight",
+          "effect": "Intercepting the opponent's Dash Attack with a Basic Attack grants the Attacker a Passive Fury, increasing Attack Rating by 200% for 5 seconds."
+        },
+        {
+          "name": "Hale and Hearty-2",
+          "effect": "Whenever the Attacker gains a Bar of Power, the Defender gains a Regeneration Buff, healing 6% of their max Health over 8 seconds.\nThis Regeneration Buff is removed early if the Defender is knocked down with a Heavy Attack."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Thor (J.F)"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Black Bolt"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Ghost Rider"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "King Groot"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "yondu"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Dragon Man"
+        }
+      ],
+      "boss": {
+        "name": "Hercules",
+        "nodes": [
+          {
+            "name": "Critical Eye",
+            "effect": "Whenever the Attacker lands a Critical Hit, the Defender gains an Unblockable Charge. Their next Attack becomes Passively Unblockable.\nCharges are consumed whenever the Defender attacks, regardless of whether it hits.\nIntercepting the Defender removes all active Charges and grants the Attacker a 10-second Passive Precision, increasing Critical Rating by 20% per Charge removed.\nThese effects cannot be prevented by Ability Accuracy modification."
+          },
+          {
+            "name": "Combo Party-2",
+            "effect": "Attacker gains an indefinite +500 Cruelty Buff for every 10 hits in their Combo Meter.\nIf the Combo Meter is set to 0 when struck, all Cruelty Buffs are removed, each dealing 40% of the Defender's Attack as a burst of Direct Damage."
+          },
+          {
+            "name": "Buff Synthesis \u2013 Cruelty/Precision",
+            "effect": "Whenever the Attacker activates a Precision Buff while they have an active Cruelty Buff, both are removed.\nThe Attacker instead gains Steadfast for 10 seconds, allowing them to Block Unblockable Attacks."
+          },
+          {
+            "name": "Make A Stand-1",
+            "effect": "Defender has indefinite Protection, reducing all damage received by 50%. This goes on cooldown for 15 seconds when the Defender is knocked down."
+          },
+          {
+            "name": "Defender Bias (Aggressive)",
+            "effect": "The Defender is more likely to use Heavy Attacks and Dash Attacks."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.1.6",
+      "video_url": "https://youtu.be/6TLn7zdl9yQ?si=sZwb1SiuVcKF01vJ",
+      "path_nodes": [
+        {
+          "name": "Seeing Red",
+          "effect": "Mutant Attackers reduce the potency of Bleed Debuffs by 90%. When activating a Special Attack, they remove any Bleed effects on themselves.\nWhen this happens, their Ability Accuracy increases by 1000%. Whenever a Mutant Attacker removes a Bleed effect or is immune to one, they gain a Permanent Fury, increasing Attack Rating by 35%.\nMax 10 stacks."
+        },
+        {
+          "name": "Caltrops",
+          "effect": "Dashing backwards against this enemy causes you to Bleed for 6 seconds."
+        },
+        {
+          "name": "Acclimation",
+          "effect": "Every 5 hits on their Combo Meter, Mutant Attackers Purify any Bleed, Incinerate, and Coldsnap currently affecting them. Each Debuff Purified this way provides the Attacker with 10% of a Bar of Power."
+        },
+        {
+          "name": "Escalation",
+          "effect": "The Defender gains a Fury Passive every 60 seconds, increasing Base Attack by 5% per stack."
+        },
+        {
+          "name": "Coolant Leak",
+          "effect": "Whenever a Robotic Attacker would gain a Bleed Debuff, they instead gain an Incinerate, dealing 85% of the Defender's Attack as Direct Damage over 5 seconds."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "Mid",
+          "champion": "Punisher"
+        },
+        {
+          "difficulty": "Easy",
+          "champion": "Spider-man (2099)"
+        },
+        {
+          "difficulty": "Mid",
+          "champion": "Mole man"
+        },
+        {
+          "difficulty": "Mid",
+          "champion": "America chavez"
+        },
+        {
+          "difficulty": "Mid",
+          "champion": "Jabari Panther"
+        },
+        {
+          "difficulty": "Easy",
+          "champion": "Magneto (House of x)"
+        }
+      ],
+      "boss": {
+        "name": "Black Widow ( SCYTALIS)",
+        "nodes": [],
+        "phases": [
+          {
+            "name": "Phase -1 (100- 81 % hp)",
+            "steps": [
+              {
+                "mechanic": "Medium Combo Ender",
+                "action": "She has 100% chance to Evade Medium Combo Enders for the rest of the fight."
+              },
+              {
+                "mechanic": "Trap placement",
+                "action": "After SP1, she places a Trap."
+              },
+              {
+                "mechanic": "Trap activation",
+                "action": "Trap arms 1.5 seconds after SP1 ends."
+              },
+              {
+                "mechanic": "Health lock",
+                "action": "She cannot go below 80% HP from a single attack."
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 (80-41% hp)",
+            "steps": [
+              {
+                "mechanic": "Trap placement",
+                "action": "Now she places the Trap after SP2 instead of SP1."
+              },
+              {
+                "mechanic": "Trap activation",
+                "action": "Takes 3.5 seconds to arm."
+              },
+              {
+                "mechanic": "Trap vulnerability",
+                "action": "She is NO LONGER vulnerable to her own Trap simply while being struck."
+              },
+              {
+                "mechanic": "Health lock",
+                "action": "She cannot go below 40% HP from a single attack."
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 (40-6% hp)",
+            "steps": [
+              {
+                "mechanic": "Trap placement",
+                "action": "Trap appears after SP1"
+              },
+              {
+                "mechanic": "Trap activation",
+                "action": "Takes 5.5 seconds to arm"
+              },
+              {
+                "mechanic": "Health lock",
+                "action": "She cannot go below 5% HP from a single attack"
+              },
+              {
+                "mechanic": "Armor mechanic",
+                "action": "Same basic trap \u2192 remove Armor \u2192 damage strategy"
+              }
+            ]
+          },
+          {
+            "name": "Phase 4 (5-0% hp)",
+            "steps": [
+              {
+                "mechanic": "Heavy attacks",
+                "action": "Scytalis has 100% Evade vs Heavy Attacks, even while Stunned."
+              },
+              {
+                "mechanic": "Trap placement",
+                "action": "Trap comes after SP2"
+              },
+              {
+                "mechanic": "Trap activation",
+                "action": "Takes 7.5 seconds"
+              },
+              {
+                "mechanic": "Corrupted Armor",
+                "action": "Cannot be removed by triggering the Trap anymore."
+              },
+              {
+                "mechanic": "Trap knockdown",
+                "action": "Knocking her into her Trap gives you +10% Special Attack Damage Prowess."
+              },
+              {
+                "mechanic": "Armor cracks",
+                "action": "While Prowess is active, each Special hit removes 10% of her damage reduction."
+              },
+              {
+                "mechanic": "Prowess consumption",
+                "action": "Each Special Attack hit consumes one Prowess."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "8.2.1",
+      "video_url": "https://youtu.be/AG1fXI457dc?si=fCRQlSUZ1whdFGl8",
+      "path_nodes": [
+        {
+          "name": "WEAPON \u2013 Tactical Skateboard",
+          "effect": "Whenever the Defender strikes the Attacker or hits into Block, they gain a Cruelty Passive for each Armor Buff currently active.\nEach Cruelty increases their Crit Damage by 50% for 15 seconds. Max 5 stacks. These Cruelty effects cannot be prevented by Ability Accuracy and cannot be inflicted on the Attacker's Block."
+        },
+        {
+          "name": "UNARMED \u2013 Unique Buffs",
+          "effect": "While the Defender's Weapon Node is on Cooldown, they take 50% more damage from Attacks for each Unique Buff active on the Attacker."
+        },
+        {
+          "name": "DISARM \u2013 Heavy Attack",
+          "effect": "Whenever the Attacker knocks down the Defender with a Heavy Attack, any active Weapon Node effects are disabled and enter Cooldown for 20 seconds. They reactivate afterward.\nThe Defender cannot be damaged again for 10 seconds after being knocked down."
+        },
+        {
+          "name": "Nerves of Steel \u2013 3",
+          "effect": "Every 6 seconds, the Defender gains an indefinite Armor Up Passive, increasing Armor Rating by 15%. Max 10 stacks. Striking the Defender's Block removes an Armor Up."
+        },
+        {
+          "name": "Nerves of Steel \u2013 3",
+          "effect": "Every 6 seconds, the Defender gains an indefinite Armor Up Passive, increasing Armor Rating by 15%. Max 10 stacks. Striking the Defender's Block removes an Armor Up."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Warlock"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Strom"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Omega sentinel"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Thor (Ragnarok)"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Stryfe"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Darkhawk"
+        }
+      ],
+      "boss": {
+        "name": "Vision",
+        "nodes": [
+          {
+            "name": "Power Armor",
+            "effect": "Whenever either Champion gains a Bar of Power, the Defender gains an Armor Up Buff, increasing Armor by 15% for 15 seconds."
+          },
+          {
+            "name": "Stalwart Shield",
+            "effect": "Each Armor Up Buff on the Defender reduces the duration of Debuffs on them by 15%."
+          },
+          {
+            "name": "Tunnel Vision",
+            "effect": "When the Attacker performs the same action twice in a row, they have a 100% chance to gain a Falter Debuff, causing them to Miss their current attack.\nThe Falter is removed when the Attacker's strikes Miss. Special Attacks don't count toward this mechanic."
+          },
+          {
+            "name": "Cold Turkey",
+            "effect": "Whenever a Debuff is Purified or Cleansed from the Attacker, they take a burst of Degeneration damage equal to 40% of the Defender's Attack."
+          },
+          {
+            "name": "Gifted (Ability Accuracy)",
+            "effect": "The Defender's Ability Accuracy is increased by 100%."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.2.2",
+      "video_url": "https://youtu.be/2vgxQ_fln_s?si=_AxHeoZ_3bA6F7Hm",
+      "path_nodes": [
+        {
+          "name": "Civil Warzone",
+          "effect": "Whenever the Defender is struck, they gain an indefinite Armor Up Buff, increasing Armor by 20%.\nWhen the Defender activates a Special Attack, all Civil Warzone Armor Up Buffs are converted into Fury Buffs, increasing Attack by 25% for 15 seconds."
+        },
+        {
+          "name": "Arcane Zeal",
+          "effect": "Whenever a Mystic Attacker fills a Bar of Power, they gain a Passive Fury, increasing Attack Rating by 70% for 15 seconds.\nNullifying a Buff from the Defender or preventing one from triggering converts all temporary Fury Passives into indefinite ones. Max 5 stacks."
+        },
+        {
+          "name": "Divine Barrier \u2013 3",
+          "effect": "While fighting a Mystic Attacker, every 10 seconds the Defender becomes immune to Nullify, Fateseal, and Stagger for 10 seconds.\nThe timer is paused for 2 seconds each time the Attacker Nullifies a Buff."
+        },
+        {
+          "name": "Powerful",
+          "effect": "The Defender is immune to all forms of Power Manipulation."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "hella"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "gambit"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "green goblin"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Nova"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Red Skull"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Super Skrul"
+        }
+      ],
+      "boss": {
+        "name": "Deadpool force X",
+        "nodes": [
+          {
+            "name": "Aggression (Regeneration)",
+            "effect": "Every 2 seconds, the Defender gains an indefinite Regeneration Passive, healing 0.25% of Max Health every second. When the Defender is struck, the timer resets and one stack is removed."
+          },
+          {
+            "name": "Reinvigorated (Fury)",
+            "effect": "Whenever a Regeneration Buff or Passive is activated, if the Defender is not Heal Blocked, they gain a Vigor Charge.\nAt 10 Vigor Charges, they are consumed and the Defender gains a Passive Fury, increasing Attack by 100% for 10 seconds."
+          },
+          {
+            "name": "Infectious Wrath",
+            "effect": "Tech Attackers: When the Defender would gain Health while Heal Blocked, they instead gain an indefinite +70% Fury Passive, unaffected by Ability Accuracy. Cooldown: 1 second. Max 5 stacks."
+          },
+          {
+            "name": "Redoubled Determination \u2013 2",
+            "effect": "For each Debuff, Defender gains +50% Attack and +15% Combat Power Rate. Bleed, Poison, and Armor Break count twice for this effect."
+          },
+          {
+            "name": "Confusing Specials",
+            "effect": "During the Defender's Special Attacks and immediately after they end, the Attacker is inflicted with a Reversed Controls Passive. Unaffected by Ability Accuracy modification."
+          },
+          {
+            "name": "Indomitable",
+            "effect": "The Defender's healing abilities cannot be reversed. When healing would be reversed, it is instead only prevented."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.2.3",
+      "video_url": "https://youtu.be/9wdurhRIvMU?si=jfC8wG7VJq_VHfhg",
+      "path_nodes": [
+        {
+          "name": "Crimson Rage",
+          "effect": "Every 8 seconds, the Defender gains an Unstoppable Buff for 4 seconds, unless they are suffering from a Bleed Debuff or Passive when the timer expires."
+        },
+        {
+          "name": "Buff Toggle (Unblockable)",
+          "effect": "Every 10 seconds, the Defender gains an Unblockable Buff for 2 seconds."
+        },
+        {
+          "name": "Boost Buff (Unstoppable) \u2013 2",
+          "effect": "The Defender's Unstoppable Buffs gain +5% duration and Ability Accuracy. While an Unstoppable Buff is active, the Defender fights more aggressively."
+        },
+        {
+          "name": "Bleed Vulnerability",
+          "effect": "While the Defender is Bleeding, the Attacker's Attack Rating is increased by 100% when landing an attack."
+        },
+        {
+          "name": "From My Cold Dead Hands",
+          "effect": "Each Buff Nullified, Staggered, or Fate Sealed off the Defender inflicts a burst of 20% Direct Damage to the Attacker. Armor Break Debuffs Nullify Armor Up Buffs."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Sentry"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Yellow Jacket"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Sorcerer Supreme"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Odin"
+        },
+        {
+          "difficulty": "mmid",
+          "champion": "Long shot"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "human Torch"
+        }
+      ],
+      "boss": {
+        "name": "Jeo fixit",
+        "nodes": [
+          {
+            "name": "Ebb and Flow \u2013 Knock Down",
+            "effect": "Defender has Protection, reducing incoming damage by 60%. Knocking down the Defender removes Protection and grants the Attacker a Fury Passive, increasing Attack Rating by 40% for 12s.\nWhen Fury expires, Protection returns and all Debuffs on the Defender are Purified."
+          },
+          {
+            "name": "Bleed Vulnerability",
+            "effect": "While the Defender is Bleeding, the Attacker's Attack Rating is increased by 200% when landing an attack."
+          },
+          {
+            "name": "Mighty Charge \u2013 1",
+            "effect": "When the Defender Dashes Forward, they Purify all Debuffs and become Debuff Immune until the end of the Dash Attack."
+          },
+          {
+            "name": "Cramping",
+            "effect": "While under a Weakness Debuff, 10% of the Attacker's Power is Drained every second. Additionally, they suffer 25% of the Defender's Attack as Damage each time they land a Hit."
+          },
+          {
+            "name": "Bolster \u2013 Energy \u2013 3",
+            "effect": "While suffering from a Damage Over Time effect that deals Energy Damage, the Defender gains +90% Energy Resistance."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.2.4",
+      "video_url": "https://youtu.be/qvkkEx0G_lk?si=Mb1xHdW71Kgl36Ti",
+      "path_nodes": [
+        {
+          "name": "Invade",
+          "effect": "Both Champions have 100% Block Penetration and +300% Attack when hitting into a Block."
+        },
+        {
+          "name": "Heavy Assault",
+          "effect": "Both Champions have +500% Attack when using a Heavy Attack. While charging a Heavy Attack, this Defender is Unstoppable."
+        },
+        {
+          "name": "Languor",
+          "effect": "Whenever Power empties to 0, the Champion suffers +240% of their Attack as Direct Damage."
+        },
+        {
+          "name": "Life Transfer",
+          "effect": "The Opponent takes Direct Damage over Time, losing 2% of their Max Health per second, but Lifestealing 125% of their Damage Done. The Lifesteal percentage is affected by Class Relationships."
+        },
+        {
+          "name": "Transducer",
+          "effect": "The defender rewards more power when Struck , but it's presence drains the Attacker's Power."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Civil Warrior"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Beast"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Guardian"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Ice Man"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Hulk buster"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Black panther (Civil War)"
+        }
+      ],
+      "boss": {
+        "name": "Scorpion",
+        "nodes": [
+          {
+            "name": "Reinvigorated (Unblockable)",
+            "effect": "Every time a Regeneration Buff or Passive is activated, if the Defender is not Heal Blocked, they gain a dormant Vigor Charge. At 10 Vigor Charges,\nthey are consumed and the Defender gains a Passive Unblockable for 10 seconds."
+          },
+          {
+            "name": "Calcify",
+            "effect": "Whenever the Defender activates a Special Attack, they inflict 2 Petrify Debuffs at 25% Potency each, lasting 10 seconds for every Bar of Power spent."
+          },
+          {
+            "name": "Mind's Eye",
+            "effect": "Skill Attackers: When preventing an Evade, or causing an Evade to fail, they gain an indefinite +70% Fury Passive. Unaffected by Ability Accuracy. Max 5 stacks."
+          },
+          {
+            "name": "The Best Defense...",
+            "effect": "Defender gains +60% Evade and Auto-Block Ability Accuracy. Triggering Evade or Auto-Block grants the Defender 30% of a Bar of Power."
+          },
+          {
+            "name": "Vital Strikes",
+            "effect": "When the Defender strikes the Attacker's Block, the Defender regenerates 250% of the damage dealt."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.2.5",
+      "video_url": "https://youtu.be/0fe0U2RYkFw?si=MUNO6edxD9ucUcOB",
+      "path_nodes": [
+        {
+          "name": "Arrogance",
+          "effect": "Every 10 hits on the Attacker's Combo Meter inflicts a Falter Passive. After causing their attacks to Miss, Falter lasts 3 seconds. When the Attacker is struck, Falter is removed."
+        },
+        {
+          "name": "Celestial Vision",
+          "effect": "Each time a Cosmic Attacker lands an attack, they have a 15% chance for each unique Buff to gain a Vigilance Buff, preventing attacks from Missing for 5 seconds.\nIf the Attacker has True Strike, True Sense, or True Accuracy, Vigilance lasts an additional 5 seconds."
+        },
+        {
+          "name": "Counterstrike \u2013 3",
+          "effect": "Using the Dexterity Mastery to dodge an attack grants the Attacker a Passive Fury, increasing Attack Rating by 15% per charge. At 5 Fury Charges,\nall charges are lost and the Defender's attacks are Unblockable for 9 seconds."
+        },
+        {
+          "name": "Nowhere To Hide",
+          "effect": "Each time the Defender's Miss Effect is prevented, Cosmic Attackers gain an indefinite Fury Passive, increasing Attack Rating by 35%. Max 10 stacks."
+        },
+        {
+          "name": "Enhanced Abilities \u2013 200",
+          "effect": "All abilities trigger 200% more often."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "War machine"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Ice man"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "yondu"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "killmonger"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "punisher (2099)"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "emma frost"
+        }
+      ],
+      "boss": {
+        "name": "Peni Parker",
+        "nodes": [
+          {
+            "name": "Backboard Brawler",
+            "effect": "While the Defender is pinned against a wall, they gain a permanent Passive Fury and Passive Armor every 3 seconds. Each Fury increases Base Attack by 10%, up to 300%.\nEach Armor increases Armor Rating by 100, up to 1,000."
+          },
+          {
+            "name": "Pumping Iron",
+            "effect": "Defender takes 60% less damage while the Attacker has no Buffs. For each Buff the Attacker has, this damage reduction decreases by 20%, until it reaches 0%. Buffs can be of the same type."
+          },
+          {
+            "name": "Foresight",
+            "effect": "When the Attacker performs an Intercept, their Attack Rating increases by 200% for 5 seconds."
+          },
+          {
+            "name": "Mighty Charge \u2013 1",
+            "effect": "When the Defender Dashes Forward, they Purify all Debuffs and become Debuff Immune until the end of the Dash Attack."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.2.6",
+      "video_url": "https://youtu.be/z0_1GlF2y1Y?si=evUoj2e-0VuvwR08",
+      "path_nodes": [
+        {
+          "name": "Punishment Glutton",
+          "effect": "Skill Attackers gain a permanent Passive Fury, increasing Attack Rating by 35% each time a Damaging Debuff is Purified or expires on the Opponent. Max 10 stacks."
+        },
+        {
+          "name": "Haunted",
+          "effect": "When the Defender Dashes Back, the Attacker is Faltered for 3 seconds. All Debuffs on the Attacker are Purified and converted into a 100% Fury Buff for 10 seconds.\nFalter is not affected by Ability Accuracy and any damage dealt while Faltered is reflected back."
+        },
+        {
+          "name": "Brutal Refresher \u2013 1",
+          "effect": "Whenever the Defender is knocked down, they gain a non-stacking Energize Passive, increasing Combat Power Rate by 25% for 6 seconds."
+        },
+        {
+          "name": "Bolster \u2013 Energy \u2013 3",
+          "effect": "While suffering from a Damage Over Time effect that deals Energy Damage, the Defender gains +90% Energy Resistance."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Sentry"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "thor (J.F)"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "invisible Woman"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Venom the duck"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Titania"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Tigra"
+        }
+      ],
+      "boss": {
+        "name": "Hulk ( Bhameth )",
+        "nodes": [],
+        "phases": [
+          {
+            "name": "Phase -1 (100- 81 % hp)",
+            "steps": [
+              {
+                "mechanic": "Stay Close",
+                "action": "Build Volatility Charges by staying close to Bahamet."
+              },
+              {
+                "mechanic": "3 Volatility",
+                "action": "Build the required 3 Volatility Charges."
+              },
+              {
+                "mechanic": "Bait Special",
+                "action": "Bait the appropriate Special to trigger Radiation."
+              },
+              {
+                "mechanic": "Radiation Blast",
+                "action": "Radiation creates the important projectile."
+              },
+              {
+                "mechanic": "Removal Charge",
+                "action": "Interact with the Radiation Blast to obtain a Removal Charge."
+              },
+              {
+                "mechanic": "Knockdown",
+                "action": "Knock Bahamet down while you have the Removal Charge."
+              },
+              {
+                "mechanic": "Armor Removed",
+                "action": "Corrupted Armor is removed."
+              },
+              {
+                "mechanic": "DAMAGE",
+                "action": "Use your strongest attacks during the vulnerability window."
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 (80-41% hp)",
+            "steps": [
+              {
+                "mechanic": "Build Volatility",
+                "action": "Stay close and build the required Volatility."
+              },
+              {
+                "mechanic": "Trigger Radiation",
+                "action": "Bait the appropriate Special and trigger Radiation."
+              },
+              {
+                "mechanic": "Get Removal Charge",
+                "action": "Perform the Radiation Blast interaction."
+              },
+              {
+                "mechanic": "Radiation Blast",
+                "action": "Prepare to reflect the Blast back toward Bahamet."
+              },
+              {
+                "mechanic": "Heavy / Well-Timed Block",
+                "action": "Use a Heavy Attack or Well-Timed Block interaction to reflect it."
+              },
+              {
+                "mechanic": "Blast Hits Bahamet",
+                "action": "The reflected Radiation Blast interacts with Bahamet."
+              },
+              {
+                "mechanic": "Armor Removed",
+                "action": "Corrupted Armor is removed."
+              },
+              {
+                "mechanic": "DAMAGE",
+                "action": "Take advantage of the damage window."
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 (40-6% hp)",
+            "steps": [
+              {
+                "mechanic": "Build Volatility",
+                "action": "Stay close and build Volatility again."
+              },
+              {
+                "mechanic": "Trigger Radiation",
+                "action": "Bait the required Special."
+              },
+              {
+                "mechanic": "Radiation Blast",
+                "action": "Wait for the projectile."
+              },
+              {
+                "mechanic": "Identify Blast",
+                "action": "Watch carefully \u2014 the Radiation Blast can be replaced by a Fire Blast."
+              },
+              {
+                "mechanic": "Radiation Blast",
+                "action": "Perform the normal reflection/interaction."
+              },
+              {
+                "mechanic": "Fire Blast",
+                "action": "Do NOT try to reflect it. Avoid/block it appropriately."
+              },
+              {
+                "mechanic": "Armor Mechanic",
+                "action": "Successfully complete the Radiation mechanic to remove the Armor."
+              },
+              {
+                "mechanic": "DAMAGE",
+                "action": "Use your big attacks while Bahamet is vulnerable."
+              }
+            ]
+          },
+          {
+            "name": "Phase 4 (5-0% hp)",
+            "steps": [
+              {
+                "mechanic": "No Removal Charge",
+                "action": "Removal Charges are no longer required."
+              },
+              {
+                "mechanic": "Trigger Radiation",
+                "action": "Build Volatility and trigger Radiation."
+              },
+              {
+                "mechanic": "Radiation Blast",
+                "action": "Prepare to reflect the Blast."
+              },
+              {
+                "mechanic": "Normal Reflection",
+                "action": "Successful reflection removes 20% of his Damage Reduction."
+              },
+              {
+                "mechanic": "Well-Timed Block",
+                "action": "A successful Well-Timed Block reflection removes 25% of his Damage Reduction."
+              },
+              {
+                "mechanic": "Repeat",
+                "action": "Continue reflecting Radiation Blasts."
+              },
+              {
+                "mechanic": "Armor Reduction \u2192 0%",
+                "action": "Once the Damage Reduction reaches 0%, Corrupted Armor loses its protective function."
+              },
+              {
+                "mechanic": "NUKE",
+                "action": "Finish Bahamet before he can reach SP3."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "8.3.1",
+      "video_url": "https://youtu.be/5LV_YHo91OM?si=WdUbKhAi529Q2so0",
+      "path_nodes": [
+        {
+          "name": "Throw Down-1",
+          "effect": "Whenever a Science Attacker gains a Fury, they gain a non-stacking Unstoppable Passive for 15s.\nWhile Unstoppable, knocking down the Defender refreshes the Unstoppable and inflicts a 30% Physical Vulnerability Debuff for 45s."
+        },
+        {
+          "name": "Can't Stop Won't Stop",
+          "effect": "The duration of the Attacker's Unstoppable effects is increased by 100%. However, the Defender takes 75% less damage unless the Attacker is Unstoppable."
+        },
+        {
+          "name": "Striker Vulnerability-2",
+          "effect": "Strikers deal a burst of Direct Damage equal to 150% of their damage dealt. Additionally, whenever an Attacker's Striker finishes a Combo,\nthe Attacker gains a Fury Passive, increasing Attack Rating by 50% for 15s."
+        },
+        {
+          "name": "Rubber Band-1",
+          "effect": "Whenever the Attacker's Combo Meter reaches 10 or a multiple of 10, the Defender gains a 5-second Unblockable Buff."
+        },
+        {
+          "name": "Especially Energetic",
+          "effect": "Whenever the Defender uses a Special Attack, they gain an Energize Passive, increasing Combat Power Rate by 75% for 5s."
+        },
+        {
+          "name": "Special 2 Bias",
+          "effect": "The Defender is more likely to activate Special Attack 2."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "MID",
+          "champion": "Sorcerer Supreme"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "gamora"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Symbiote Supreme"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "odin"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Green Goblin"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Spider main ( supreme )"
+        }
+      ],
+      "boss": {
+        "name": "Gorr",
+        "nodes": [
+          {
+            "name": "Civil Warzone",
+            "effect": "Whenever the Defender is struck, they gain an indefinite Armor Up Buff, increasing Armor by 20%. Whenever the Defender activates a Special Attack,\nall Civil Warzone Armor Up Buffs convert into Fury Buffs, increasing Attack by 25% for 15s."
+          },
+          {
+            "name": "Steady Perseverance-1",
+            "effect": "When the Defender activates a Special Attack, they gain a Stun Immunity Buff for 4s + 2s for each of the Defender's Unique Buffs. This Buff is paused during the Defender's Special Attacks."
+          },
+          {
+            "name": "Foresight",
+            "effect": "When the Attacker performs an Intercept, their Attack Rating increases by 200% for 5s."
+          },
+          {
+            "name": "Cold Turkey-2",
+            "effect": "Whenever a Debuff is Purified or Cleansed from the Attacker, they take a burst of Degeneration damage equal to 30% of the Defender's Attack."
+          },
+          {
+            "name": "Special Attack Heal Block",
+            "effect": "The Defender's Special Attacks inflict a Heal Block Debuff and a Passive Fate Seal against Regeneration Buffs for 10s."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.3.2",
+      "video_url": "https://youtu.be/pxzgg5cQvr4?si=n3ghgFR6hSrZldOT",
+      "path_nodes": [
+        {
+          "name": "Stellar Striker-2",
+          "effect": "Whenever a Cosmic Attacker activates a Striker, they gain 3 Aptitude Buffs at 30% Potency for 20s. These Aptitudes are paused while the Striker is active."
+        },
+        {
+          "name": "Aptitude Test-1",
+          "effect": "The Attacker's Aptitude effects are 25% more potent. The Defender takes 50% less damage from all sources unless the Attacker has an Aptitude active."
+        },
+        {
+          "name": "Bubble Shield-3",
+          "effect": "Each time the Attacker Blocks an attack, their Block Proficiency decreases by 6%. After 10 stacks, the Defender's next attack is Unblockable."
+        },
+        {
+          "name": "Level Headed",
+          "effect": "The Defender is immune to the effects of Infuriate and Intimidate."
+        },
+        {
+          "name": "Aggressive",
+          "effect": "The Defender is more aggressive and excels at offensive abilities like Heavy and Dash Attacks."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Gambit"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Warlock"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Namor"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Guillotine 2099"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Kraven"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Ultron"
+        }
+      ],
+      "boss": {
+        "name": "Mephisto",
+        "nodes": [
+          {
+            "name": "Decisive Strike-1",
+            "effect": "Defender has indefinite Protection, reducing all damage received by 50%. Protection goes on 15-second cooldown when the Defender is struck by a Striker."
+          },
+          {
+            "name": "Striker Vulnerability-3",
+            "effect": "Strikers deal a burst of Direct Damage equal to 200% of their damage dealt. Whenever the Attacker's Striker finishes a Combo, the Attacker gains a Fury Passive, increasing Attack Rating by 75% for 15s."
+          },
+          {
+            "name": "Perpetual Motion-1",
+            "effect": "Defender gains an indefinite Energize Passive every 10s, increasing Combat Power Rate by 10%. The timer is refreshed and all Energize Passives are removed whenever the Attacker activates a Striker."
+          },
+          {
+            "name": "Dauntless",
+            "effect": "The Attacker starts the fight with their Spirit Gauge full."
+          },
+          {
+            "name": "Limber-1",
+            "effect": "Each time the Defender receives a Stun Debuff, the duration of future Stun Debuffs is reduced by 10%."
+          },
+          {
+            "name": "Defender Bias (Special 2)",
+            "effect": "The Defender is more likely to activate Special Attack 2."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.3.3",
+      "video_url": "https://youtu.be/sNItwhe2J6o?si=_MwzbD7Wnchkmcqk",
+      "path_nodes": [
+        {
+          "name": "Stunning Performance-1",
+          "effect": "Whenever a Mutant Attacker's Parry Stun is removed by Purify/Cleanse or prevented by Ability Accuracy, the Attacker instead inflicts a Passive Stun for 3s.\nThis Stun is not affected by Ability Accuracy.\nIf the Attacker activates a Special while the opponent is Passively Stunned, the Stun is paused and the Attacker receives a +300% Attack Boost for the duration of the Special."
+        },
+        {
+          "name": "Persistent Pressure",
+          "effect": "Defenders under the effect of Unstoppable become Stun Immune, including Unstoppable effects triggered by this node. Every 15s, the Defender gains Unstoppable for 5s.\nDuration is reduced by 0.5s for each Prowess Buff or Passive the Attacker has."
+        },
+        {
+          "name": "Tenacity-3",
+          "effect": "When inflicted with a Debuff, the Defender has a 75% chance to Purify it."
+        },
+        {
+          "name": "Empyreal Defiance",
+          "effect": "Defender is immune to Nullify, Stagger, Fate Seal, and Buff Immunity. Their Buff Ability Accuracy cannot be modified by abilities such as Neutralize or Soul Imprisonment."
+        },
+        {
+          "name": "Adamant Axiom",
+          "effect": "The effects of Quest Nodes cannot have their Ability Accuracy modified."
+        },
+        {
+          "name": "Aggressive",
+          "effect": "Defender is more aggressive and excels at offensive abilities such as Heavy and Dash Attacks."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "mid",
+          "champion": "kingpin"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Ghost rider"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Black Widow"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Red Hulk"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Korg"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Human Torch"
+        }
+      ],
+      "boss": {
+        "name": "VenomPool",
+        "nodes": [
+          {
+            "name": "Rushdown-3",
+            "effect": "Attacker starts with 3 Rushdown Charges. When the Defender's Dash Attack lands or is Blocked, 1 Charge is removed. Knocking down the Defender restores 1 Charge.\nWhen the Attacker has 0 Charges, they suffer a 3-second Passive Stun, then all Rushdown Charges are restored."
+          },
+          {
+            "name": "Window of Opportunity \u2013 Stun",
+            "effect": "Defender starts Stun Immune. Whenever they would be Stunned, the Attacker instead inflicts Stun for 4s. The Immunity lasts 12s, then has a 12s cooldown.\nBefore the Immunity returns, it Passively Purifies all Stun Debuffs on the Defender, then removes them."
+          },
+          {
+            "name": "Stun Vulnerability",
+            "effect": "While the Defender is Stunned, the Attacker's Attack Rating is increased by 200% when landing an attack."
+          },
+          {
+            "name": "Rust and Ruin",
+            "effect": "When the Defender is struck, there is a 40% chance to inflict an Armor Break on the Attacker, reducing Armor Rating by 25% for 10s.\nIf the Attacker has 5+ Armor Breaks, they are consumed and converted into an indefinite Armor Break Debuff."
+          },
+          {
+            "name": "Empyreal Defiance",
+            "effect": "Defender is immune to Nullify, Stagger, Fate Seal, Buff Immunity, and Neutralize. Their Buff Ability Accuracy cannot be modified."
+          },
+          {
+            "name": "Level Headed",
+            "effect": "Defender is immune to Infuriate and Intimidate."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.3.4",
+      "video_url": "https://youtu.be/jIGd06Dz2-w?si=oFnzv58-JFHHzXsv",
+      "path_nodes": [
+        {
+          "name": "Blood Drive-1",
+          "effect": "Whenever a Skill Attacker inflicts Bleed, they also inflict a non-stacking Slow Passive for 15s.\nWhenever this Slow prevents an Evade or Unstoppable, the Attacker gains a Vicious Passive, increasing the potency of Damage-over-Time Debuffs by 60% for 15s."
+        },
+        {
+          "name": "Footloose",
+          "effect": "After activating a Special Attack, the Defender gains an Evade Buff, with a 25% chance to Evade incoming attacks, and an Unstoppable Buff for 7s."
+        },
+        {
+          "name": "Brutal Refresher-2",
+          "effect": "Whenever the Defender is knocked down, they gain a non-stacking Energize Passive, increasing Combat Power Rate by 50% for 6s."
+        },
+        {
+          "name": "Adaptive",
+          "effect": "The Defender cycles between building Physical Resistance and Energy Resistance, switching every 8 seconds."
+        },
+        {
+          "name": "Empyreal Defiance",
+          "effect": "Defender is immune to Nullify, Stagger, Fate Seal, Buff Immunity, and Neutralize. Their Buff Ability Accuracy cannot be modified by abilities such as Neutralize and Soul Imprisonment."
+        },
+        {
+          "name": "Aggressive",
+          "effect": "Defender is more aggressive and excels at offensive abilities such as Heavy and Dash Attacks."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "mid",
+          "champion": "Hulk ( Ragnarok)"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Diablo"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Hella"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Hulk"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Juggernaut"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Hulk ( Immortal )"
+        }
+      ],
+      "boss": {
+        "name": "Thing",
+        "nodes": [
+          {
+            "name": "Stunning Reflection (Poison, Incinerate)",
+            "effect": "At the start of the fight, Defender gains a permanent Stun Shield. While active, the Defender cannot be Stunned.\nWhenever a Stun is attempted, the Attacker is Stunned for 3s.\nThe Shield then enters an 8s cooldown if the Defender is inflicted with Poison or Incinerate. While the Shield is on cooldown, the Attacker gains +40% Attack Rating."
+          },
+          {
+            "name": "Foresight",
+            "effect": "When the Attacker performs an Intercept, their Attack Rating increases by 200% for 5s."
+          },
+          {
+            "name": "Calcify \u2013 2",
+            "effect": "Whenever the Defender activates a Special Attack, they inflict 2 Petrify Debuffs, each at 25% Potency. They last 10s for each Bar of Power spent."
+          },
+          {
+            "name": "Defender Bias (Aggressive)",
+            "effect": "The Defender is more likely to use Heavy Attacks and Dash Attacks."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.3.5",
+      "video_url": "https://youtu.be/9hgn6QzVg18?si=xYwtwfVbYzNqmszT",
+      "path_nodes": [
+        {
+          "name": "WEAPON \u2013 Sentinel Nanites",
+          "effect": "Whenever the Defender activates a Special Attack, they inflict a Heal Block Passive on the Attacker for 15s.\nWhile the Heal Block is active, the Attacker also receives a 200% Potency Physical Vulnerability Passive."
+        },
+        {
+          "name": "DISARM \u2013 Stun",
+          "effect": "Whenever the Attacker applies a Stun Debuff, any Passive or Weapon Node active on the Defender is disabled and enters a 20s cooldown.\nThe Defender cannot be damaged again for 10s after reactivation."
+        },
+        {
+          "name": "UNARMED \u2013 Striker",
+          "effect": "While the Defender's Weapon Node is on Cooldown, the Attacker's Striker hits inflict a burst of Direct Damage equal to 200% of the damage dealt."
+        },
+        {
+          "name": "CAPTURE \u2013 Dodge Special Attack",
+          "effect": "While the Defender's Weapon Node is on cooldown, the Attacker can capture the Weapon Node by dodging a Special Attack.\nThis steals the Weapon Special Attack effect for 45s, then it returns to the Defender."
+        },
+        {
+          "name": "Hale and Hearty \u2013 1",
+          "effect": "Whenever the Attacker gains a Bar of Power, the Defender gains a Regeneration Buff, healing 3% of Max Health over 8s.\nThe Regeneration is removed early if the Defender is knocked down with a Heavy Attack."
+        },
+        {
+          "name": "Empyreal Defiance",
+          "effect": "Defender is immune to Nullify, Stagger, Fate Seal, and Buff Immunity, and their Buff Ability Accuracy cannot be modified."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "mid",
+          "champion": "Scarlet Witch (Sigil)"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Cull Obsidian"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "sentinel"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Purgatory"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Caption Marvel (Movie)"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Doom"
+        }
+      ],
+      "boss": {
+        "name": "Bishop",
+        "nodes": [
+          {
+            "name": "Burnout",
+            "effect": "Whenever the Defender activates a Special Attack, they gain a Burnout Charge, increasing their Special Attack damage by 10% per Charge.\nAt 10+ Charges, all Charges are removed and the Defender becomes Passively Power Locked for 10s.\nWhenever the Attacker activates Dexterity for any hit from the Defender's Special Attack, the Defender gains 1 additional Burnout Charge."
+          },
+          {
+            "name": "Grudge",
+            "effect": "While the Defender has Heal Block or Power Lock, the Attacker gains +100% Combat Power Rate.\nWhen Heal Block or Power Lock expires on the Defender, the Attacker gains a non-stacking Passive Debuff Immunity for 5s."
+          },
+          {
+            "name": "Root or Rooted",
+            "effect": "Every 12s, the Attacker becomes Passively Rooted for 5s. If the Attacker is far away when this triggers, the Defender becomes Passively Rooted instead.\nThe timer restarts only after the Root expires and is paused during Specials."
+          },
+          {
+            "name": "Striker Vulnerability \u2013 3",
+            "effect": "Strikers deal a burst of Direct Damage equal to 200% of their damage dealt.\nWhenever the Attacker's Striker finishes a Combo, the Attacker gains a Fury Passive, increasing Attack Rating by 75% for 15s."
+          },
+          {
+            "name": "Gifted (Ability Accuracy) \u2013 3",
+            "effect": "The Defender's Ability Accuracy is increased by 100%."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.3.6",
+      "video_url": "https://youtu.be/H1oBbRzAWC0?si=ga5B_Ovs-GC4ixeq",
+      "path_nodes": [
+        {
+          "name": "Eldritch Scar",
+          "effect": "Whenever a Mystic Attacker Nullifies a Buff on the Defender, they inflict Neutralize of 30% potency for 20s. Max 5 stacks.\nEach time a Buff on the Defender is prevented by these Neutralizes, the Attacker Passively gains 3% of their Max Power."
+        },
+        {
+          "name": "Personal Space \u2013 Fury",
+          "effect": "While the Attacker is close to the Defender, the Defender gains a Fury every 3s, increasing Attack by 10%. Staying far away causes these Furies to gradually fall off."
+        },
+        {
+          "name": "Buff Toggle (Unblockable)",
+          "effect": "Every 10s, the Defender gains an Unblockable Buff for 2s."
+        },
+        {
+          "name": "Parry Vulnerability",
+          "effect": "Each time the Attacker lands a successful Parry, they gain a Fury Buff, increasing Attack Rating by 75% for 15s.\nAdditionally, the Attacker gains +20% Attack Rating while the Defender is Stunned by Parry."
+        },
+        {
+          "name": "Long Distance Eternity",
+          "effect": "While far away, the Defender's Fury, Unblockable, True Damage, and Power Gain Buffs are paused."
+        },
+        {
+          "name": "Enhanced Abilities \u2013 20",
+          "effect": "All abilities trigger 20% more often."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "mid",
+          "champion": "Hyperion"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Red Skull"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Cable"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Super Skrull"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Nimrod"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Hulking"
+        }
+      ],
+      "boss": {
+        "name": "Iron-Man ( Cerastes )",
+        "nodes": [],
+        "phases": [
+          {
+            "name": "Phase -1 (100- 91 % hp)",
+            "steps": [
+              {
+                "mechanic": "Spirit Armor",
+                "action": "Use the Spirit/Relic interaction to damage Spirit Armor."
+              },
+              {
+                "mechanic": "Leg Armor",
+                "action": "Knock Cerastes down \u2192 100 Armor stacks damaged."
+              },
+              {
+                "mechanic": "Shield Armor",
+                "action": "Hit into his Block \u2192 100 Shield stacks damaged."
+              },
+              {
+                "mechanic": "Rotate Armor",
+                "action": "Once one Armor is damaged, it locks. Damage a different Armor."
+              },
+              {
+                "mechanic": "Break Armor",
+                "action": "Reduce an Armor variant to 0 stacks."
+              },
+              {
+                "mechanic": "Armor Broken",
+                "action": "That Armor loses its 30% damage reduction for 12s."
+              },
+              {
+                "mechanic": "Rotate Again",
+                "action": "Break the other Armor variants and refresh the active Break timers."
+              },
+              {
+                "mechanic": "All 3 Broken",
+                "action": "Cerastes becomes Passively Stunned for 16s."
+              },
+              {
+                "mechanic": "DAMAGE",
+                "action": "Dump your strongest attacks during the Stun."
+              }
+            ]
+          },
+          {
+            "name": "Phase 2 (90-51% hp)",
+            "steps": [
+              {
+                "mechanic": "Armor starts at 225",
+                "action": "Leg, Shield and Spirit all begin at 225 stacks."
+              },
+              {
+                "mechanic": "Damage Armor",
+                "action": "Use the correct action for the active Armor."
+              },
+              {
+                "mechanic": "Armor Lock",
+                "action": "Once damaged, that Armor locks."
+              },
+              {
+                "mechanic": "Switch Armor",
+                "action": "Damage another Armor type."
+              },
+              {
+                "mechanic": "Wrong Armor",
+                "action": "Trying to damage a locked Armor causes Cerastes to immediately repair 100 stacks on that Armor."
+              },
+              {
+                "mechanic": "Break Armor",
+                "action": "Bring an Armor variant to 0."
+              },
+              {
+                "mechanic": "Armor Break",
+                "action": "Gain the +125% damage window."
+              },
+              {
+                "mechanic": "All 3",
+                "action": "Break all three \u2192 16s Passive Stun."
+              },
+              {
+                "mechanic": "NUKE",
+                "action": "Use your biggest damage during the Stun."
+              }
+            ]
+          },
+          {
+            "name": "Phase 3 (50-6% hp)",
+            "steps": [
+              {
+                "mechanic": "Random Armor",
+                "action": "Leg/Shield/Spirit start with random stacks between 50\u2013250."
+              },
+              {
+                "mechanic": "Rotate",
+                "action": "Damage one Armor \u2192 it locks."
+              },
+              {
+                "mechanic": "Switch",
+                "action": "Damage another Armor."
+              },
+              {
+                "mechanic": "Stun Immunity",
+                "action": "Cerastes can no longer be Stunned by normal Stun effects."
+              },
+              {
+                "mechanic": "Locked Armor",
+                "action": "Trying to damage a locked Armor triggers its Overcharge. \u2620\ufe0f"
+              },
+              {
+                "mechanic": "Break",
+                "action": "Bring Armor to 0 to break it."
+              },
+              {
+                "mechanic": "Armor Break",
+                "action": "Cerastes takes +125% damage."
+              },
+              {
+                "mechanic": "Break all 3",
+                "action": "All three broken \u2192 16s Passive Stun."
+              },
+              {
+                "mechanic": "DAMAGE",
+                "action": "Go hard during the damage window."
+              }
+            ]
+          },
+          {
+            "name": "Phase 4 (5-0% hp)",
+            "steps": [
+              {
+                "mechanic": "Overcharge",
+                "action": "All three Armor systems become permanently Overcharged."
+              },
+              {
+                "mechanic": "Health Drain",
+                "action": "Cerastes loses 4% Max Health over 16s."
+              },
+              {
+                "mechanic": "Cannot Damage",
+                "action": "While all systems are Overcharged, Cerastes takes NO damage from you."
+              },
+              {
+                "mechanic": "Wait",
+                "action": "Let his own Overcharge drain his Health."
+              },
+              {
+                "mechanic": "1% HP",
+                "action": "His suit enters Meltdown."
+              },
+              {
+                "mechanic": "Meltdown",
+                "action": "Overcharges deactivate and his Health stops draining."
+              },
+              {
+                "mechanic": "Attack = 0",
+                "action": "Both Champions' Attack Ratings become 0."
+              },
+              {
+                "mechanic": "Intimidate",
+                "action": "Cerastes gains an indefinite Intimidate Passive."
+              },
+              {
+                "mechanic": "Hit Block",
+                "action": "Strike Cerastes' Block with a Light Attack."
+              },
+              {
+                "mechanic": "SYSTEM COLLAPSE",
+                "action": "This deals 99,999 Direct Damage and finishes him."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "8.4.1",
+      "video_url": "https://youtu.be/a5xWs5Xhx7U?si=hj9x4HNwBkwy2Qzv",
+      "path_nodes": [
+        {
+          "name": "Pick Me Up-3",
+          "effect": "For every 10 hits on the Attacker's Combo Meter, the Attacker gains a permanent 5% Energize Buff. When struck,\nthe Attacker loses all Energize Buffs gained from this node and takes 45% of the Defender's Attack as Direct Damage for each Energize Buff removed.\nLanding the first hit of a Heavy Attack removes 1 Energize Buf"
+        },
+        {
+          "name": "Turn the Tide",
+          "effect": "One of the Attacker's Special Attacks is randomly chosen at the start.\nThe chosen Special rotates every 10s, or when the Attacker ends a Combo with an attack that didn't end their previous Combo.\nAttacker's Specials suffer \u2212100% Ability Accuracy and \u221290% Weakness, unless it is the chosen Special."
+        },
+        {
+          "name": "Counterstrike \u2013 3",
+          "effect": "Using Dexterity to dodge an attack grants the Attacker a Passive Fury, increasing Attack Rating by 15% per charge.\nAt 5 Fury Charges, all charges are lost and the Defender's attacks become Unblockable for 9s."
+        },
+        {
+          "name": "Perforate",
+          "effect": "Both Champions' Special Attacks are Unblockable."
+        },
+        {
+          "name": "Aggressive",
+          "effect": "Defender is more aggressive and excels at offensive abilities such as Heavy and Dash Attacks."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Gambit"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Lady Deathstrick"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Masacre"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Shuri"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Magneto"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Hulk buster"
+        }
+      ],
+      "boss": {
+        "name": "America Chavez",
+        "nodes": [
+          {
+            "name": "Rising Sun",
+            "effect": "When the Defender is struck, the Attacker gains a Fury Buff granting 2.5% Attack Rating for 25s.\nAfter reaching 10 Fury Buffs, additional Fury Buffs instead inflict a stacking Passive Degeneration, dealing 12% of the Defender's Attack over 4s.\nIf the Attacker lands a Heavy Attack, all Fury Buffs are removed."
+          },
+          {
+            "name": "Pumping Iron",
+            "effect": "Defender takes 60% less damage while the Attacker has no Buffs. For each Buff active on the Attacker, the damage reduction decreases by 20%, until it reaches 0%. Buffs can be the same type."
+          },
+          {
+            "name": "Foresight",
+            "effect": "When the Attacker performs an Intercept, their Attack Rating increases by 200% for 5s."
+          },
+          {
+            "name": "Heavy-Hitter",
+            "effect": "The Defender is Unstoppable during Heavy Attacks. This cannot be prevented by Ability Accuracy Reduction."
+          },
+          {
+            "name": "Shifting Immunity \u2013 Bleed and Poison",
+            "effect": "Defender starts with Bleed Immunity, alternating every 10s with Poison Immunity. Whenever an immunity activates, the Defender Purifies the corresponding effect."
+          },
+          {
+            "name": "Level Headed",
+            "effect": "Defender is immune to Infuriate and Intimidate."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.4.2",
+      "video_url": "https://youtu.be/jPyuuQ7P7tA?si=O9vgbiyGU89yyLgN",
+      "path_nodes": [
+        {
+          "name": "Snowballing (Fury)-3",
+          "effect": "If the Defender is under the effect of 3 or more Buffs, they gain a Fury Passive granting 25% Attack Rating for 2s. Each Fury lasts 15s.\nThe Defender continues gaining these Passives until all Buffs expire or are removed."
+        },
+        {
+          "name": "Personal Space \u2013 Fury",
+          "effect": "While the Attacker is close to the Defender, the Defender gains a Fury Buff every 3s, increasing Attack by 10% permanently. Staying far away causes these Fury effects to gradually fall off."
+        },
+        {
+          "name": "Long Distance Eternity",
+          "effect": "While far away, the Defender's Fury, Unblockable, True Damage, and Power Gain Buffs are paused."
+        },
+        {
+          "name": "Occult Immunity \u2013 Special Punish",
+          "effect": "Defender is immune to Nullify, Stagger, and Fate Seal. Whenever the Defender's Special Attack disables this immunity, the immunity remains disabled for 15s."
+        },
+        {
+          "name": "Crippling Strike-1",
+          "effect": "Activating a Special Attack inflicts a 30-second 50% Debilitate Debuff on the Defender. This Debilitate does not affect Stun Debuffs."
+        },
+        {
+          "name": "Gifted (Ability Accuracy)-3",
+          "effect": "Defender's Ability Accuracy is increased by 100%."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "mid",
+          "champion": "cosmic Ghost Rider"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Silver Century"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Hulking"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Strom (Prymid X)"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "yondu"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Sersi"
+        }
+      ],
+      "boss": {
+        "name": "Ikaris",
+        "nodes": [
+          {
+            "name": "Occult Immunity \u2013 Heavy",
+            "effect": "Defender is immune to Nullify, Stagger, and Fate Seal. Knocking down the Defender with a Heavy Attack disables this immunity for 15s."
+          },
+          {
+            "name": "Slap Me Not",
+            "effect": "Whenever the Defender is immune to or inflicted with Nullify, Fate Seal, or Stagger, they become Stun Immune for 10s."
+          },
+          {
+            "name": "Mystic Focus",
+            "effect": "Whenever a Mystic Attacker holds Block or charges a Heavy Attack, they activate a Power Gain Buff, providing 5% of their Max Power every 1s for the duration of the Block or Heavy Charge."
+          },
+          {
+            "name": "The Floor is Lava \u2013 3",
+            "effect": "Whenever the Defender is knocked down, each Non-Damaging Debuff on them has a 30% chance to be converted into an Incinerate Debuff,\ndealing 20% of the Defender's Base Attack as Energy Damage over 7s."
+          },
+          {
+            "name": "Gifted (Ability Accuracy) \u2013 5",
+            "effect": "Defender's Ability Accuracy is increased by 200%."
+          },
+          {
+            "name": "Mystic Ascendancy \u2013 2",
+            "effect": "Mystic Attackers: +30% Attack Rating. Science Attackers: +15% Attack Rating. Cosmic Attackers: \u221210% Attack Rating."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.4.3",
+      "video_url": "https://youtu.be/mcdxouIKibQ?si=LuUrfy6o4HCbLWxW",
+      "path_nodes": [
+        {
+          "name": "Crisis of Opportunity",
+          "effect": "Every 20s, the Attacker suffers a Degeneration Passive, losing 100% of the Defender's Attack Rating over 6s.\nIf the timer expires while the Attacker is performing SP1 or SP2, instead of Degeneration they gain a Fury Passive, increasing Attack Rating by 100% for 12s.\nIf the timer expires while the Defender is performing SP1/SP2, the Defender is Degenerated and the Attacker gains the Fury instead."
+        },
+        {
+          "name": "Power Generator \u2013 2",
+          "effect": "Whenever the Attacker gains a Bar of Power, the Defender gains 1 Dynamo Charge.\nWhen the Defender is knocked down, they consume all Dynamo Charges and gain 30% of a Bar of Power for each Charge consumed.\nIntercepting the Defender removes 1 Dynamo Charge."
+        },
+        {
+          "name": "Kinetic Instigator",
+          "effect": "The Attacker gains 5.5% of their Max Power whenever they strike the Defender's Block."
+        },
+        {
+          "name": "Power Reversal",
+          "effect": "Whenever the Attacker activates a Power Gain Buff, it is removed and replaced with a Power Drain Debuff, draining 50% of the Attacker's Max Power over 5s."
+        },
+        {
+          "name": "Unblockable Specials",
+          "effect": "The Defender's Special Attacks are Passively Unblockable. This ability is not affected by Ability Accuracy."
+        },
+        {
+          "name": "Special 2 Bias",
+          "effect": "The Defender is more likely to activate Special Attack 2."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Thor (J.F)"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Nebula"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Heimdal"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "The Hood"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Hercules"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Dragon Man"
+        }
+      ],
+      "boss": {
+        "name": "Valkyrie",
+        "nodes": [
+          {
+            "name": "Turn the Tide",
+            "effect": "One of the Attacker's Special Attacks is randomly chosen at the start. The chosen Special rotates every 10s, or when the Attacker ends a Combo with an attack that didn't end their previous Combo.\nAttacker's Specials suffer \u2212100% Ability Accuracy and \u221290% Weakness unless it is the chosen Special."
+          },
+          {
+            "name": "Power Shield \u2013 3",
+            "effect": "The Attacker's Basic Attacks deal no damage, but the Attacker gains +400% Attack Rating during Special Attacks."
+          },
+          {
+            "name": "Unwavering Combo-3",
+            "effect": "The Defender's Combo Meter is not reset when they are struck."
+          },
+          {
+            "name": "Combo Up \u2013 2",
+            "effect": "Every 1 second, the Defender's Combo Meter increases by 1. If the Attacker performs an Intercept, this timer is paused for 10 seconds."
+          },
+          {
+            "name": "Escalating Pierce",
+            "effect": "Every 5 seconds, the Defender gains a Pierce Buff at 400% potency, lasting 15 seconds."
+          },
+          {
+            "name": "Defender Bias (Heavy Attack) \u2013 4",
+            "effect": "The Defender is 20% more likely to use Heavy Attacks."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.4.4",
+      "video_url": "https://youtu.be/1QCUVdg2fTw?si=XFLTOplStwIco1L0",
+      "path_nodes": [
+        {
+          "name": "WEAPON \u2013 Adaptive X-Gene",
+          "effect": "Defender has a 50% chance to Glance incoming hits and a 150% chance to Glance Combo-blocked hits. Whenever this Glancing triggers, Defender gains a permanent 5% Fury Passive.\nWhenever the Defender gains a Bar of Power, they double the amount of these Fury Passives. Max 30."
+        },
+        {
+          "name": "DISARM \u2013 Striker",
+          "effect": "Whenever the Attacker activates a Striker, any active Weapon Node on the Defender is disabled and enters a 20s cooldown, then reactivates.\nDefender cannot be Disarmed again for 10s after reactivation."
+        },
+        {
+          "name": "UNARMED \u2013 Special 1",
+          "effect": "While the Defender's Weapon Node is on cooldown, the Attacker takes 800% more damage from Special 1 attacks."
+        },
+        {
+          "name": "CAPTURE \u2013 Stun",
+          "effect": "While the Weapon Node is on cooldown, the Attacker can capture the Weapon Node by inflicting a Stun Debuff or Passive Stun.\nCapturing it steals the Weapon effect and removes the cooldown from the Defender.\nAfter the capture expires, the Weapon Node reactivates on the Defender."
+        },
+        {
+          "name": "BERSERK \u2013 Supernal",
+          "effect": "While the Weapon Node is on cooldown, the Defender gains a True Strike Passive, so they cannot cause Attacks to Miss. Defender also has a 200% chance to gain a 5% Energize Buff every 1s."
+        },
+        {
+          "name": "Aggressive",
+          "effect": "Defender is more aggressive and excels at offensive abilities such as Heavy and Dash Attacks."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "easy",
+          "champion": "Red Goblin"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Gaurdian"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Sauron"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Galan"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Iron Man ( Infamous )"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Nova"
+        }
+      ],
+      "boss": {
+        "name": "Terrax",
+        "nodes": [
+          {
+            "name": "Foreseen Consequences-2",
+            "effect": "At the start and every 12s, Defender chooses SP1 or SP2.\nUsing the chosen Special grants the Attacker a True Damage Passive for 6s. Using the non-chosen Special grants the Defender 30% of Max Power.\nSP3 triggers neither effect."
+          },
+          {
+            "name": "Prey on the Weak-2",
+            "effect": "Defender gains 2% of Max Power whenever a Buff is Nullified or expires from the Attacker. Armor Break Debuffs Nullify Armor Up Buffs."
+          },
+          {
+            "name": "Stand Still!-2",
+            "effect": "When the Attacker Dodges an attack, Defender gains an indefinite Fury Passive, increasing Attack by 20%. At 7 Fury Passives, Defender gains 5s Unstoppable Passive.\nWhen Unstoppable expires, all Fury Passives are removed."
+          },
+          {
+            "name": "Hazard Shift \u2013 Shock, Bleed",
+            "effect": "Striking Defender has a 40% chance to inflict the Attacker with Shock, dealing 30% of Defender's Attack as Damage over 7s. Every 12s, this switches to a 40% chance to inflict Bleed instead."
+          },
+          {
+            "name": "Sorcerer Striker \u2013 2",
+            "effect": "Whenever a Mystic Attacker activates a Striker, they Steal 20% of Defender's Max Power. While Mystic Striker is active, Defender cannot gain Power from being struck."
+          },
+          {
+            "name": "Gifted (Physical Resistance) \u2013 5",
+            "effect": "Increases Defender's Physical Resistance by 80%."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.4.5",
+      "video_url": "https://youtu.be/yuuZwC6boq8?si=IFFhnm7L0HaWEWu1",
+      "path_nodes": [
+        {
+          "name": "WEAPON \u2013 Transmode Infection",
+          "effect": "Whenever the Defender hits into Block or Blocks an attack, they inflict a non-stacking Power Lock Passive for 3s. Cooldown: 6s.\nWhenever the Attacker would gain Power while Power Locked, they are instead inflicted with 90% Energize for 12s."
+        },
+        {
+          "name": "DISARM \u2013 Combo Up",
+          "effect": "Whenever the Attacker's Combo Meter reaches 15 or a multiple of 15, the Defender's Weapon Node is disabled and enters a 20s cooldown, then reactivates.\nDefender cannot be Disarmed again for 10s after reactivation."
+        },
+        {
+          "name": "UNARMED \u2013 Strike Block",
+          "effect": "While the Defender's Weapon Node is on cooldown, their Block Proficiency drops by 100% and they take 800% more damage from hits into their Block."
+        },
+        {
+          "name": "CAPTURE \u2013 Dodge Special Attack",
+          "effect": "While the Weapon Node is on cooldown, the Attacker can capture the Weapon Node by dodging any hit of the Defender's Special Attack.\nThis steals the Weapon effect for 45s and removes the cooldown from the Defender. After 45s, the Weapon Node reactivates on the Defender."
+        },
+        {
+          "name": "BERSERK \u2013 Experimental",
+          "effect": "While the Weapon Node is on cooldown, the Defender gains a 3-second non-stacking Unstoppable Passive whenever they Dash Forward, and a 10-second 5% Fury Passive whenever they are struck."
+        },
+        {
+          "name": "Kinetic Reactor",
+          "effect": "Defender gains 5.5% of their Max Power whenever they strike the Attacker's Block."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "mid",
+          "champion": "Spider-man ( Miles )"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Black Widow ( CV)"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Corvus Glaive"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Spider_Gwen"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Symbiote Supreme"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "QuickSilver"
+        }
+      ],
+      "boss": {
+        "name": "Caption America ( Sam Wilson )",
+        "nodes": [
+          {
+            "name": "Energy Adoption: Ice-2",
+            "effect": "Defender has a 50% chance to inflict Coldsnap whenever they are struck or the Attacker Blocks an attack.\nThis won't trigger while the Defender has an Armor Break. Defender takes 100% reduced damage from Coldsnap, and gains a Regeneration Buff healing 1% Max Health/sec until Coldsnap expires."
+          },
+          {
+            "name": "Debuff Synthesis \u2013 Stun / Armor Break",
+            "effect": "When Defender receives an Armor Break while Stunned, both effects are removed and the Defender gets a Cold Snap dealing 200% of Attacker's Attack as Energy Damage over 10s.\nColdsnap also prevents Evade."
+          },
+          {
+            "name": "Crack in the Armor",
+            "effect": "Cosmic Attackers: Each Damaging Effect has a 15% chance to inflict a 500 Armor Break for 5s.\nWhenever an Armor Break is inflicted, gain an indefinite +70% Fury Passive, unaffected by Ability Accuracy. Max 5 stacks."
+          },
+          {
+            "name": "Gimme Shelter \u2013 3",
+            "effect": "Defender has a 90% chance to Auto-Block Basic Attacks.\nThis chance decreases by 15% for each Buff on the Attacker. At 0% Auto-Block chance, Defender gains 100% chance to resist Heavy Block Break."
+          },
+          {
+            "name": "Level Headed",
+            "effect": "Defender is immune to Infuriate and Intimidate."
+          },
+          {
+            "name": "True Focus",
+            "effect": "Defender's attacks ignore Evade and Miss."
+          }
+        ],
+        "phases": []
+      }
+    },
+    {
+      "id": "8.4.6",
+      "video_url": "https://youtu.be/5SNDIhVtDQM?si=N7eZp0_9AF-weZlq",
+      "path_nodes": [
+        {
+          "name": "Power Shield 2.0",
+          "effect": "Defender takes 90% reduced damage from all sources except Special Attacks. While performing a Special Attack, the Attacker gains +200% Attack Rating for each Bar of Power spent."
+        },
+        {
+          "name": "Cruel to be Kind \u2013 1",
+          "effect": "Every 5 hits in the Attacker's Combo Meter inflicts an indefinite 25% potency Power Sting Debuff.\nActivating a Special removes these Power Stings and grants a 15s 45% Cruelty Buff for each Power Sting removed."
+        },
+        {
+          "name": "Phoenix Rising \u2013 1",
+          "effect": "Defender gains +5% Attack Rating for each hit in the Attacker's Combo Meter, up to 100%."
+        },
+        {
+          "name": "Rubber Band \u2013 2",
+          "effect": "Whenever the Attacker's Combo Meter reaches 15 or a multiple of 15, the Defender gains a 5s Unblockable Buff."
+        },
+        {
+          "name": "Heal Block \u2013 Advanced",
+          "effect": "Attacker is permanently affected by a Passive Heal Block and a Passive Fate Seal against Regeneration Buffs."
+        },
+        {
+          "name": "Aggressive",
+          "effect": "Defender is more aggressive and excels at offensive abilities such as Heavy and Dash Attacks."
+        }
+      ],
+      "path_defenders": [
+        {
+          "difficulty": "mid",
+          "champion": "Red Gaurdian"
+        },
+        {
+          "difficulty": "easy",
+          "champion": "Guillotine"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Caption Marvel"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Mister Negative"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Ebony Maw"
+        },
+        {
+          "difficulty": "mid",
+          "champion": "Scorpion"
+        }
+      ],
+      "boss": {
+        "name": "PUNISHER ( GLYKHAN )",
+        "nodes": [],
+        "phases": [
+          {
+            "name": "Indestructible \u2013 Phase 3",
+            "steps": []
+          },
+          {
+            "name": "Phase -1",
+            "steps": [
+              {
+                "mechanic": "Activate Punishments",
+                "action": "Build the Divine Punishments through their specific actions."
+              },
+              {
+                "mechanic": "Build Prowess",
+                "action": "Every activated Punishment gives +40% Prowess."
+              },
+              {
+                "mechanic": "Punish Heavy/SP",
+                "action": "Bait and punish Glykhan's Heavy or Special."
+              },
+              {
+                "mechanic": "Damage Chain",
+                "action": "Your combo following the punish can now deal damage."
+              },
+              {
+                "mechanic": "Special Punishment",
+                "action": "Fully dex his Special to remove 1 random Punishment."
+              },
+              {
+                "mechanic": "12 Punishment Stacks",
+                "action": "All Punishments are removed and you gain 3 extra Prowess."
+              },
+              {
+                "mechanic": "DAMAGE \ud83d\udca5",
+                "action": "Continue punishing Heavy/SP \u2192 combo \u2192 damage."
+              }
+            ]
+          },
+          {
+            "name": "Phase 2",
+            "steps": [
+              {
+                "mechanic": "Build to 2 Bars",
+                "action": "Glykhan decides randomly between SP1 and SP2."
+              },
+              {
+                "mechanic": "Random Special",
+                "action": "You won't know which one until he activates it."
+              },
+              {
+                "mechanic": "SP1",
+                "action": "Glykhan gains an Unstoppable Passive."
+              },
+              {
+                "mechanic": "SP2",
+                "action": "Glykhan gains an Unblockable Passive."
+              },
+              {
+                "mechanic": "Dex the Special",
+                "action": "Each Special hit you make him miss/avoid reduces the duration of his Passive."
+              },
+              {
+                "mechanic": "Punish Special",
+                "action": "After successfully avoiding it, punish the Special and continue your combo."
+              },
+              {
+                "mechanic": "Rapid Power Gain",
+                "action": "After his Special, Glykhan rapidly regains Power up to 2 Bars."
+              },
+              {
+                "mechanic": "Repeat",
+                "action": "Keep the fight moving and avoid allowing him to reach SP3."
+              }
+            ]
+          },
+          {
+            "name": "Phase 3",
+            "steps": [
+              {
+                "mechanic": "Punishments Start MAXED",
+                "action": "All Divine Punishments begin at maximum stacks."
+              },
+              {
+                "mechanic": "Trigger Punishment",
+                "action": "Instead of adding stacks, triggering one removes it while still giving Prowess."
+              },
+              {
+                "mechanic": "Remove All 5",
+                "action": "Work through the Punishments until all are removed."
+              },
+              {
+                "mechanic": "Reapply",
+                "action": "After all are removed, they can be reapplied after the next damaging combo chain."
+              },
+              {
+                "mechanic": "Never Back Down",
+                "action": "When Glykhan charges Heavy or activates Special while you're in striking distance, you become Rooted briefly."
+              },
+              {
+                "mechanic": "Punish Carefully",
+                "action": "You must work around the Root while punishing Heavy/SP."
+              },
+              {
+                "mechanic": "Indestructible",
+                "action": "Once per fight, a lethal hit can trigger 16s Indestructible."
+              },
+              {
+                "mechanic": "Survive",
+                "action": "During Indestructible, Glykhan's landed attacks instantly KO you."
+              },
+              {
+                "mechanic": "Finish",
+                "action": "Once Indestructible ends, continue the punishment \u2192 combo \u2192 damage cycle."
+              }
+            ]
+          },
+          {
+            "name": "Phase 4",
+            "steps": [
+              {
+                "mechanic": "16s protection after lethal hit",
+                "action": "SURVIVE \u2014 don't get hit"
+              },
+              {
+                "mechanic": "Glykhan finally stays down",
+                "action": "Punish \u2192 Combo \u2192 FINISH"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
