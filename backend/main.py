@@ -242,23 +242,7 @@ def get_immunities(): return MCOC_DATA.get("immunities", [])
 
 @app.get("/api/v1/tier-lists")
 async def get_tier_lists():
-    tier_data = MCOC_DATA.get("tier_data", {})
-    if not tier_data:
-        tier_data = {
-            "Cosmic": [], "Skill": [], "Mutant": [], 
-            "Mystic": [], "Science": [], "Tech": [],
-            "Synergy Support": []
-        }
-        for c in MCOC_DATA.get("champions", []):
-            if c.get("tier") == "S-Tier":
-                c_class = c.get("class")
-                if c_class in tier_data:
-                    tier_data[c_class].append({
-                        "name": c.get("name"),
-                        "image": c.get("image"),
-                        "class": c_class
-                    })
-    return tier_data
+    return MCOC_DATA.get("story_tiers", {})
 
 @app.get("/api/v1/duel-targets")
 async def get_duel_targets():
